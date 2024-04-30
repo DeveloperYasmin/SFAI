@@ -22,7 +22,7 @@ const Timer = () => {
   };
 
   return (
-    <div className="timer ml-10 md:-mt-2 md:ml-0 bg-cover bg-center p-4 md:p-10 rounded-md text-white font-sans flex items-center md:space-x-4">
+    <div className="timer select-none ml-10 md:-mt-2 md:ml-0 bg-cover bg-center p-4 md:p-10 rounded-md text-white font-sans flex items-center md:space-x-4">
       <div className="flex items-center">
         <div className="bg-gradient-to-b w-16 md:w-20 font-bold text-3xl md:text-4xl from-purple-600 text-center to-gray-900 bg-opacity-70 p-2 rounded-md mb-2 relative">
           {formatTime(seconds).days.toString().padStart(2, '0')}

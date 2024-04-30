@@ -4,6 +4,7 @@ import Footer from "./Footer"
 const MainContent = () => {
   return (
     <main id="main-content">
+      <div className="select-none">
       <p className="md:text-6xl md:w-[48%] font-extrabold font-serif p-10 -mt-20 bg-gradient-to-r bg-clip-text from-red-600 to-blue-700 text-transparent">
         SAN FRANCISCO AI CONFERENCE!
       </p>
@@ -23,6 +24,7 @@ const MainContent = () => {
             ↗ Buy Tickets
           </button>
           <button className="rounded-full md:-mt-8 p-2 bg-white text-black  md:ml-0 md:mr-6 w-40 mb-3 md:mb-0">
+            
             ↗ Read More
           </button>
         </div>
@@ -32,6 +34,7 @@ const MainContent = () => {
             ↗ Register Now
           </button>
         </div>
+      </div>
       </div>
       <Footer/>
     </main>
