@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SFAI/static/css/main.e7110562.css",
+    "main.js": "/SFAI/static/js/main.557e071c.js",
+    "index.html": "/SFAI/index.html",
+    "main.e7110562.css.map": "/SFAI/static/css/main.e7110562.css.map",
+    "main.557e071c.js.map": "/SFAI/static/js/main.557e071c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7110562.css",
+    "static/js/main.557e071c.js"
+  ]
+}
