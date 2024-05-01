@@ -4,6 +4,9 @@ import { createHashRouter, RouterProvider,Outlet } from "react-router-dom";
 import About from "./components/about";
 import Body from "./components/Body";
 import Sponsorship from "./components/sponsorship";
+import Travel from "./components/travel"
+import Faq from "./components/faq"
+import Contact from "./components/contactus"
 
 
 function App(){
@@ -35,6 +38,21 @@ const appRouter=createHashRouter([
         {
             path:"/sponsorship",
             element:<Sponsorship/>
+        
+        },
+        {
+            path:"/travel",
+            element:<Travel/>
+        
+        },
+        {
+            path:"/faq",
+            element:<Faq/>
+        
+        },
+        {
+            path:"/contactus",
+            element:<Contact/>
         
         },
            
