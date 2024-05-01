@@ -5,10 +5,8 @@ const Header = () => {
   const [click, setClick] = useState(false);
   const [activeTab, setActiveTab] = useState("");
 
-  // Get the current location using useLocation hook from react-router-dom
   const location = useLocation();
 
-  // Function to handle click outside of menu
   const handleClickOutside = (event) => {
     if (
       !event.target.closest(".menu") &&
@@ -18,7 +16,6 @@ const Header = () => {
     }
   };
 
-  // Add event listener when component mounts
   useEffect(() => {
     document.addEventListener("click", handleClickOutside);
     return () => {
@@ -27,7 +24,6 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    // Update active tab based on the current location
     setActiveTab(location.pathname);
   }, [location.pathname]);
 

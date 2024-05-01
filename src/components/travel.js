@@ -18,7 +18,7 @@ const Travel = () => {
         <hr className='my-3' />
         <p className='mx-8'>Attending such an event can expose you to different ways of thinking about economic issues and help you broaden your understanding of the field.</p>
       </div>
-      <div className='md:flex justify-center mt-5 ml-28 md:ml-0'>
+      <div className='md:flex justify-center mt-5 ml-10 md:ml-0'>
         <div className='border hover:bg-purple-400 border-black h-80 w-64 mx-2'>
           <div className='px-4'>
             <h3 className='mt-4 text-lg font-bold text-gray-500 hover:text-white'>🟣 STANDARD</h3>
@@ -47,7 +47,9 @@ const Travel = () => {
           </div>
         </div>
       </div>
+      <div className='md:ml-40'>
       <Footer />
+      </div>
     </div>
   );
 }

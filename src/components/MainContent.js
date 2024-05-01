@@ -5,7 +5,7 @@ const MainContent = () => {
   return (
     <main id="main-content">
       <div className="select-none">
-      <p className="md:text-6xl md:w-[48%] font-extrabold font-serif p-10 -mt-20 bg-gradient-to-r bg-clip-text from-red-600 to-blue-700 text-transparent">
+      <p className="md:text-6xl text-2xl md:w-[48%] font-extrabold font-serif p-10 -mt-20 bg-gradient-to-r bg-clip-text from-red-600 to-blue-700 text-transparent">
         SAN FRANCISCO AI CONFERENCE!
       </p>
       <div className="ml-10 -mt-8">

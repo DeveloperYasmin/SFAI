@@ -69,7 +69,9 @@ const Sponsorship = () => {
           </div>
         </div>
       </div>
+      <div className='md:ml-32'>
       <Footer/>
+      </div>
     </div>
   );
 };
